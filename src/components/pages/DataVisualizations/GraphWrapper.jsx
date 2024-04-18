@@ -126,7 +126,7 @@ function GraphWrapper(props) {
         }
       );
       fiscalSummary.data.citizenshipResults = citizenshipSummary.data;
-      console.log(fiscalSummary.Data);
+      console.log(fiscalSummary.data);
       stateSettingCallback(view, office, [fiscalSummary.data]); // <-- `test_data` here can be simply replaced by `result.data` in prod!
     }
   }
